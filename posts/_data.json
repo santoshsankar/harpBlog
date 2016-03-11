@@ -1,0 +1,14 @@
+{
+  "im-back": {
+    "title": "I'm Back",
+    "date": "2016-02-22",
+    "featured": 1,
+    "excerpt": "I'm back!"
+  },
+  "test-the-user": {
+  	"title": "Test the User",
+  	"date": "2016-03-06",
+  	"featured": 0,
+  	"excerpt": "Users"
+  }
+}

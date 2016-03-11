@@ -1,0 +1,8 @@
+<%- partial("_partials/jumbotron") %>
+
+<% for(var slug in public.posts._data){ %>
+  <h3><a href="/posts/<%= slug %>"><%= public.posts._data[slug].title %></a></h3>
+  <i><%= public.posts._data[slug].date %></i>
+  <p><%= public.posts._data[slug].excerpt %></p>
+<% }; %>
+
